@@ -1,7 +1,7 @@
 import { Card } from '../../components/card/card';
 
 type MainProps = {
-    offersCount: number
+  offersCount: number
 }
 
 const Main = ({ offersCount = 0 }: MainProps): JSX.Element => (
@@ -101,16 +101,16 @@ const Main = ({ offersCount = 0 }: MainProps): JSX.Element => (
                   className="places__option places__option--active"
                   tabIndex={0}
                 >
-                                    Popular
+                  Popular
                 </li>
                 <li className="places__option" tabIndex={0}>
-                                    Price: low to high
+                  Price: low to high
                 </li>
                 <li className="places__option" tabIndex={0}>
-                                    Price: high to low
+                  Price: high to low
                 </li>
                 <li className="places__option" tabIndex={0}>
-                                    Top rated first
+                  Top rated first
                 </li>
               </ul>
             </form>
@@ -127,4 +127,4 @@ const Main = ({ offersCount = 0 }: MainProps): JSX.Element => (
   </div>
 );
 
-export { Main };
+export default Main;
